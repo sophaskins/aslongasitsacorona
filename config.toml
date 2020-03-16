@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://corona.sophaskins.net/"
 languageCode = "en-us"
 title = "As long as it's a Corona"
 theme = "hugo-creative-theme"
