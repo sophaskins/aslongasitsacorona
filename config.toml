@@ -1,0 +1,110 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "As long as it's a Corona"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "As long as it's a Corona"
+
+		[params.navigation.links]
+			about     = "Why?"
+			services  = "Schedule"
+			aside = "Chat"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "***Fast and Furious* Marathon** for Social Distancing"
+		subtitle   = "One movie per night, starting at 9pm EDT.\n\nAll nine NOS-fueled classics.\n\nWatching together with our Family, over the Internet, with Discord Chat.\n\nYou can have any brew you want, as long as it's a Corona."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Why?"
+		description = "The SARS-CoV-2 virus [has been spreading](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html) around the world, and we're all trying to practice [social distancing](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-social-distancing-and-self-quarantine) as best we can. Many folks are lonely, itching for an adrenaline rush, or just in need of a pick-me-up. Our **Family** may be spread wide, but we can all come together and thank our creator for fast cars.\n\nWe'll start watching the films at the same time and chat in Discord along the way. There's a lot of uncertainty out there, so we're living our lives a quarter-mile at a time."
+
+	# Service section
+	[params.services]
+		headline = "Schedule"
+
+        [[params.services.list]]
+            icon = "fa-car"
+            title = "The Fast and the Furious"
+            description = "9PM EDT Tuesday, March 17"
+
+        [[params.services.list]]
+			icon = "fa-ship"
+			title = "2Fast 2Furious"
+			description = "9PM EDT Wednesday, March 18"
+
+		[[params.services.list]]
+            icon = "fa-taxi"
+            title = "The Fast and the Furious: Tokyo Drift"
+            description = "9PM EDT Thursday, March 19"
+
+		[[params.services.list]]
+            icon = "fa-bus"
+            title = "Fast & Furious"
+            description = "9PM EDT Friday, March 20"
+
+		[[params.services.list]]
+            icon = "fa-train"
+            title = "Fast Five"
+            description = "9PM EDT Saturday, March 21"
+
+		[[params.services.list]]
+            icon = "fa-plane"
+            title = "Fast & Furious 6"
+            description = "9PM EDT Sunday, March 22"
+
+		[[params.services.list]]
+            icon = "fa-car"
+            title = "Furious 7"
+            description = "9PM EDT Monday, March 23"
+
+		[[params.services.list]]
+            icon = "fa-truck"
+            title = "Fate of the Furious"
+            description = "9PM EDT Tuesday, March 24"
+
+		[[params.services.list]]
+            icon = "fa-truck"
+            title = "Hobbes and Shaw"
+            description = "9PM EDT Wednesday, March 25"
+
+
+
+    # Aside section
+	[params.aside]
+		headline = "Join the Discord Chat"
+
+		[params.aside.button]
+			text = "Join"
+			link = "//discord.gg/fUSJNpN"
